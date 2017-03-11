@@ -8,8 +8,8 @@ html body *:focus {
 
 body {
   font: 100% "Open Sans";
-  /*color: #3f5d6b;*/
-  color: #3f5d6b;
+  /*color: #2d424c;*/
+  color: #2d424c;
   font-size: 16px;
   line-height: 150%; }
 
@@ -43,7 +43,7 @@ body .navbar {
   letter-spacing: 1px; }
 
 .navbar ul a:hover, .navbar ul a:focus {
-  color: #3f5d6b;
+  color: #2d424c;
   background-color: #fff; }
 
 .icon-bar {
@@ -72,20 +72,17 @@ body .navbar {
 /***Section-Styles***/
 .about-section {
   text-align: center;
-  color: #000;
+  color: #2d424c;
   margin-top: 460px; }
 
 .dark-section {
-  color: #fff;
+  /*color: #fff;*/
   padding-top: 10%;
   position: relative;
   /*margin-top: 5%;*/
   /*margin-bottom: 5%;*/
 }
 
-.dark-section p {
-  width: 87%;
-  margin: 0 auto; }
 
 .culafic {
   width: 100%;
@@ -100,8 +97,12 @@ body .navbar {
   z-index: 0;
   color: #fff;
   font: 100% "Open Sans";
-
 }
+.dark-section p {
+  width: 87%;
+  margin: 0 auto;
+}
+
 .dark-section::before {
   content: '';
   top: 0;
@@ -147,7 +148,7 @@ textarea[name=message] {
 
 input[name=name]:focus, input[name=_replyto]:focus, textarea[name=message]:focus {
   box-shadow: none;
-  border: 1px solid #3f5d6b; }
+  border: 1px solid #2d424c; }
 
 .button {
   background-color: transparent;
@@ -155,15 +156,15 @@ input[name=name]:focus, input[name=_replyto]:focus, textarea[name=message]:focus
   border-radius: 2px;
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
-  color: #3f5d6b;
-  border: 2px solid #3f5d6b; }
+  color: #2d424c;
+  border: 2px solid #2d424c; }
 
 .button:hover {
-  background-color: #3f5d6b;
+  background-color: #2d424c;
   color: #fff; }
 
 .button:focus {
-  background-color: #3f5d6b;
+  background-color: #2d424c;
   color: #fff;
   outline: none; }
 
@@ -184,7 +185,7 @@ form {
   opacity: .85; }
 
 .piece-hover {
-  background: #3f5d6b;
+  background: #2d424c;
   position: absolute;
   width: 250px;
   top: 0;
@@ -218,7 +219,7 @@ form {
   margin-top: 5px; }
 
 .light-section blockquote {
-  border-left: 5px solid #3f5d6b; }
+  border-left: 5px solid #2d424c; }
 
 .quotation {
   font-family: Georgia;
@@ -287,14 +288,14 @@ h2 {
   max-width: 500px; }
 
 .row h3 {
-  color: #fff;
-  font-size: 20px;
+  /*color: #fff;*/
+  font-size: 23px;
   width: 87%;
   margin: 10px auto; }
 
 .dark-section h2 {
   text-align: center;
-  color: #3f5d6b; }
+  color: #2d424c; }
 
 .light-section h2, .project h2 {
   text-align: center;
@@ -307,7 +308,7 @@ h3 .fa {
   margin-right: 6px; }
 
 h4 {
-  color: #3f5d6b;
+  color: #2d424c;
   width: 87%;
   margin: 24px auto 3px auto; }
 
@@ -315,7 +316,7 @@ h4 {
   font-style: italic; }
 
 .outgoing {
-  color: #3f5d6b; }
+  color: #2d424c; }
 
 /***list-styles***/
 .resume ul {
@@ -330,7 +331,7 @@ h4 {
   margin-right: 10px; }
 
 .skills li {
-  color: #3f5d6b; }
+  color: #2d424c; }
 
 /***responsive-styles***/
 @media (max-width: 1199px) {
